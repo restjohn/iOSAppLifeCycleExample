@@ -9,7 +9,7 @@ Open the project in Xcode, make it run on the simulator or your device.  The `Ap
 and `NSTimer` to add operations to it.  The one-and-only view displays the count of queued operations and the count of 
 total operations run.  You can suspend the queue by toggling the _Run Ops_ switch, which will stop the queue from 
 running operations but the timer will continue queueing them.  The _Enable Background_ switch controls whether the 
-`AppDelegate` will request backgtround task time to drain the queue after transitioning to the background.  You can play
+`AppDelegate` will request background task time to run out the queue after transitioning to the background.  You can play
 with that switch and pressing the home button to send the app to the background, then bring it back to the foreground.  
 Observe the logging in the console to see the queue size and behavior as the app moves through the `UIApplicationState`
 life cycle states.
